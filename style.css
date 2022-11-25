@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    margin: 0 200px;
+    background-color: antiquewhite;
+}
+#navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
