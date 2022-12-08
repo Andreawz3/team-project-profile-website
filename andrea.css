@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+#mainPage {
+    height: 100vh;
+    background-image: url("./images/andrea/main-background.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+#navBar a {
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+}
+#name {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-pic {
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+#info h1 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.jobTitle {
+    margin: 20px 0;
+    font-size: 30px;
+    color: white;
+}
+.jobDetails {
+    width: 600px;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.main-design {
+    width: 730px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.header {
+    padding: 100px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #4F02A7;
+}
+#aboutMe{
+    height: 100vh;
+    position: relative;
+}
+#aboutMe p {
+    margin: 0;
+    padding: 0px 150px 150px 150px;
+    font-size: 18px;
+    text-align: center;
+}
+#aboutMe img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.education {
+    height: 100vh;
+    /* background-image: linear-gradient(white,#DDC3FB, white); */
+}
+.eduInfo {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.eduInfo img {
+    width: 330px;
+}
+.projects {
+    height: 100vh;
+}
+.hobbies {
+    height: 100vh;
+}
+.hobbies-details {
+    display: flex;
+}
+.hobbies-backgound {
+    position: absolute;
+    z-index: -1;
+}
+.hobbies h1 {
+    margin-top: 115px;
+    text-align: center;
+    font-size: 30px;
+    color: #4F02A7;
+}
+.hobbies-details p {
+    padding: 150px 650px 0 150px;
+    text-align: center;
+    font-size: 18px;
+}
+.hobbies-pic {
+    width: 360px;
+    position: absolute;
+    right: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}

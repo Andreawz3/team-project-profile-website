@@ -1,17 +1,28 @@
 body {
     margin: 0;
+    font-family: Nunito;
 }
 .container {
     height: 100vh;
-    margin: 0 200px;
-    background-color: antiquewhite;
 }
 #navBar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    color: #1D043A;
 }
-.name {
+#navBar h2 {
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Nunito;
+}
+#name {
     display: flex;
     gap: 20px;
     align-self: center;
+}
+#name a {
+    text-decoration: none;
+    font-size: 20px;
 }
