@@ -2,26 +2,96 @@ body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
 }
-.container {
+.main-page {
     height: 100vh;
+    background-image: linear-gradient(45deg, #B1C7F6, #E7D7F9, #CBF6D7, #EADBFC);
+    
 }
 #navBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
-    background-image: linear-gradient(45deg, #DDC3FB, #50bbd3);
+    padding: 10px 150px;
+}
+.team-name:hover {
+    border-bottom: 2px solid #44add4;
+    color: #44add4;
+}
+.none-text-deco {
+    text-decoration: none;
+    color: black;
 }
 #members-name{
-    width: 30%;
+    width: 40%;
 }
 .names {
     display: flex;
     justify-content: space-between;
+}
+.names li {
     list-style-type: none;
 }
-.names li, a {
-    color: black;
+.names a {
     font-size: 16px;
-    text-decoration: none;
+}
+.names a:hover {
+    border-bottom: 2px solid #44add4;
+    color: #44add4;
+}
+.quote {
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    font-size: 65px;
+    box-shadow: inset 0 0 0 0 #8ee1ff;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.quote:hover {
+    color: white;
+    box-shadow: inset 850px 0 0 0 #8ee1ff;
+  }
+.who-r-we {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 150px;
+}
+.who-r-we h1 {
+    margin-top: 100px;
+}
+.who-r-we p {
+    padding: 50px 100px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+}
+.who-r-we img {
+    position: absolute;
+    bottom: 0;
+}
+span {
+    font-size: 30px;
+}
+@media only screen and (max-width: 1000px) {
+    #navBar {
+        padding: 10px 5%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .names a, .team-name {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    #navBar {
+        padding: 20px;
+    }
+    .names a {
+        padding: 0 5px;
+    }
+    #members-name {
+        width: auto;
+    }
 }

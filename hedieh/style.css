@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: pink;
+}
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    background-image: linear-gradient(45deg, #722fc0, #a7f06b); 
+}
+#members-name{
+    width: 30%;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.names li, a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+#members-name{
+    width: 30%;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+.navBar a {
+    text-decoration: none;
+    color: #212220;
+    padding: 3px 4px;
+    transition: color .3s;
+    border-bottom: 5px solid transparent;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.main{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.education{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.maintwo{
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.continueeducation{
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.about {
+    font-family: 'Inter', sans-serif;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbies{
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+.threephotos{
+    display: flex;
+    justify-content: center;
+}
+.photostwo{
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+}
